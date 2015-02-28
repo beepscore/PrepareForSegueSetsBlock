@@ -43,6 +43,7 @@
 		DE02F2AE1AA18F75006F1D86 /* PrepareForSegueSetsBlockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrepareForSegueSetsBlockTests.m; sourceTree = "<group>"; };
 		DE2B36CF1AA1AAFE00A58D84 /* NameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NameViewController.h; sourceTree = "<group>"; };
 		DE2B36D01AA1AAFE00A58D84 /* NameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NameViewController.m; sourceTree = "<group>"; };
+		DE621BB61AA2520D001D86AF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +67,7 @@
 		DE02F2861AA18F74006F1D86 = {
 			isa = PBXGroup;
 			children = (
+				DE621BB61AA2520D001D86AF /* README.md */,
 				DE02F2911AA18F74006F1D86 /* PrepareForSegueSetsBlock */,
 				DE02F2AB1AA18F75006F1D86 /* PrepareForSegueSetsBlockTests */,
 				DE02F2901AA18F74006F1D86 /* Products */,

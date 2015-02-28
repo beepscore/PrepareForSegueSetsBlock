@@ -86,14 +86,14 @@
 			children = (
 				DE02F2961AA18F74006F1D86 /* AppDelegate.h */,
 				DE02F2971AA18F74006F1D86 /* AppDelegate.m */,
+				DE2B36CF1AA1AAFE00A58D84 /* NameViewController.h */,
+				DE2B36D01AA1AAFE00A58D84 /* NameViewController.m */,
 				DE02F2991AA18F74006F1D86 /* ViewController.h */,
 				DE02F29A1AA18F74006F1D86 /* ViewController.m */,
 				DE02F29C1AA18F75006F1D86 /* Main.storyboard */,
 				DE02F29F1AA18F75006F1D86 /* Images.xcassets */,
 				DE02F2A11AA18F75006F1D86 /* LaunchScreen.xib */,
 				DE02F2921AA18F74006F1D86 /* Supporting Files */,
-				DE2B36CF1AA1AAFE00A58D84 /* NameViewController.h */,
-				DE2B36D01AA1AAFE00A58D84 /* NameViewController.m */,
 			);
 			path = PrepareForSegueSetsBlock;
 			sourceTree = "<group>";

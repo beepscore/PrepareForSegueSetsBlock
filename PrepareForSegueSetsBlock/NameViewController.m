@@ -25,8 +25,14 @@
 }
 
 - (IBAction)doneButtonTapped:(id)sender {
+
+    // run nameBlock, using local value as argument
+    // self doesn't know which object set it's nameBlock property
+    // self just supplies the argument(s) and runs whatever code is in nameBlock
+    self.nameBlock(self.nameTextField.text);
+
     // dismissViewControllerAnimated: completion: block type is (void (^)(void))
-    // doesn't take an argument to pass in a local variable
+    // completion block doesn't take an argument to pass in a local variable
     [self dismissViewControllerAnimated:YES completion: nil];
 }
 

@@ -10,4 +10,9 @@
 
 @interface NameViewController : UIViewController
 
+// typedef takes NSString* argument doesn't return anything
+typedef void (^BSNameBlock)(NSString*);
+// property is a block of executable code
+@property (copy) BSNameBlock nameBlock;
+
 @end

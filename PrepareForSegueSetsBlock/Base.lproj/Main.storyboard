@@ -28,6 +28,9 @@
                                 <state key="normal" title="Edit Name">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="r8E-AF-KP6" kind="show" id="6oj-vi-goL"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
@@ -42,7 +45,25 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="236" y="130"/>
+            <point key="canvasLocation" x="62" y="117"/>
+        </scene>
+        <!--Name View Controller-->
+        <scene sceneID="ofP-x2-Tph">
+            <objects>
+                <viewController id="r8E-AF-KP6" customClass="NameViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hfy-7F-P7s"/>
+                        <viewControllerLayoutGuide type="bottom" id="FMu-us-TEC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="FOp-dY-n7A">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.80000000000000004" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3S9-sT-H7A" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="774" y="117"/>
         </scene>
     </scenes>
 </document>

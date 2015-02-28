@@ -14,6 +14,7 @@
 		DE02F2A01AA18F75006F1D86 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE02F29F1AA18F75006F1D86 /* Images.xcassets */; };
 		DE02F2A31AA18F75006F1D86 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE02F2A11AA18F75006F1D86 /* LaunchScreen.xib */; };
 		DE02F2AF1AA18F75006F1D86 /* PrepareForSegueSetsBlockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE02F2AE1AA18F75006F1D86 /* PrepareForSegueSetsBlockTests.m */; };
+		DE2B36D11AA1AAFE00A58D84 /* NameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2B36D01AA1AAFE00A58D84 /* NameViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		DE02F2A81AA18F75006F1D86 /* PrepareForSegueSetsBlockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrepareForSegueSetsBlockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE02F2AD1AA18F75006F1D86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE02F2AE1AA18F75006F1D86 /* PrepareForSegueSetsBlockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrepareForSegueSetsBlockTests.m; sourceTree = "<group>"; };
+		DE2B36CF1AA1AAFE00A58D84 /* NameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NameViewController.h; sourceTree = "<group>"; };
+		DE2B36D01AA1AAFE00A58D84 /* NameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NameViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				DE02F29F1AA18F75006F1D86 /* Images.xcassets */,
 				DE02F2A11AA18F75006F1D86 /* LaunchScreen.xib */,
 				DE02F2921AA18F74006F1D86 /* Supporting Files */,
+				DE2B36CF1AA1AAFE00A58D84 /* NameViewController.h */,
+				DE2B36D01AA1AAFE00A58D84 /* NameViewController.m */,
 			);
 			path = PrepareForSegueSetsBlock;
 			sourceTree = "<group>";
@@ -222,6 +227,7 @@
 				DE02F29B1AA18F74006F1D86 /* ViewController.m in Sources */,
 				DE02F2981AA18F74006F1D86 /* AppDelegate.m in Sources */,
 				DE02F2951AA18F74006F1D86 /* main.m in Sources */,
+				DE2B36D11AA1AAFE00A58D84 /* NameViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +420,7 @@
 				DE02F2B41AA18F75006F1D86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DE02F2B51AA18F75006F1D86 /* Build configuration list for PBXNativeTarget "PrepareForSegueSetsBlockTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +429,7 @@
 				DE02F2B71AA18F75006F1D86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

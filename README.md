@@ -1,10 +1,11 @@
 # Purpose
 Practice a design pattern of one view controller setting a block property on a second view controller.
-The presented view controller has a block property.
-The presenting view controller sets the block property in prepareForSegue.
+The destination view controller has a block property.
+The presenting view controller sets the destination view controller block property in prepareForSegue.
 
 # References
 BlockPlay project by Beepscore.
+https://github.com/beepscore/BlockPlay
 
 http://stackoverflow.com/questions/3935574/can-i-use-objective-c-blocks-as-properties/20760583#20760583
 suggests

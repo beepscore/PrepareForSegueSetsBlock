@@ -9,6 +9,7 @@
 #import "NameViewController.h"
 
 @interface NameViewController ()
+@property (weak, nonatomic) IBOutlet UITextField *nameTextField;
 
 @end
 
@@ -24,6 +25,8 @@
 }
 
 - (IBAction)doneButtonTapped:(id)sender {
+    // dismissViewControllerAnimated: completion: block type is (void (^)(void))
+    // doesn't take an argument to pass in a local variable
     [self dismissViewControllerAnimated:YES completion: nil];
 }
 

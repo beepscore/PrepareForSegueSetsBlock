@@ -58,7 +58,26 @@
                     <view key="view" contentMode="scaleToFill" id="FOp-dY-n7A">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nf6-7h-nQX">
+                                <rect key="frame" x="16" y="60" width="568" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iAv-4b-KCd">
+                                <rect key="frame" x="282" y="127" width="37" height="30"/>
+                                <state key="normal" title="Done">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="0.80000000000000004" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="nf6-7h-nQX" firstAttribute="top" secondItem="FOp-dY-n7A" secondAttribute="top" constant="60" id="2ic-ZZ-aUI"/>
+                            <constraint firstItem="nf6-7h-nQX" firstAttribute="leading" secondItem="FOp-dY-n7A" secondAttribute="leading" constant="16" id="eDB-OV-hwm"/>
+                            <constraint firstAttribute="trailing" secondItem="nf6-7h-nQX" secondAttribute="trailing" constant="16" id="ivn-YZ-m8Y"/>
+                            <constraint firstItem="iAv-4b-KCd" firstAttribute="top" secondItem="nf6-7h-nQX" secondAttribute="bottom" constant="37" id="yXs-HP-vkX"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3S9-sT-H7A" userLabel="First Responder" sceneMemberID="firstResponder"/>

@@ -14,9 +14,16 @@
 @end
 
 @implementation NameViewController
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+
+    // http://stackoverflow.com/questions/21894375/cant-connect-ibaction-to-view
+    UITapGestureRecognizer *gesture = [[UITapGestureRecognizer alloc]
+                                       initWithTarget:self
+                                       action:@selector(backgroundTapped)];
+    [self.view addGestureRecognizer:gesture];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -34,6 +41,11 @@
     // dismissViewControllerAnimated: completion: block type is (void (^)(void))
     // completion block doesn't take an argument to pass in a local variable
     [self dismissViewControllerAnimated:YES completion: nil];
+}
+
+- (void)backgroundTapped {
+    NSLog(@"backgroundTapped");
+    [self.view endEditing:YES];
 }
 
 /*
